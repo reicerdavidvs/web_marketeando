@@ -1398,7 +1398,7 @@ textarea {
   font-size: 36px;
   line-height: 1.2;
   margin: 0 0;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   font-weight: 700;
 }
 @media (max-width: 767.98px) {
