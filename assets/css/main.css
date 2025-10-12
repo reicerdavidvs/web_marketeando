@@ -1239,7 +1239,7 @@ textarea {
 .breadcrumb__content .title {
   margin-bottom: 12px;
   font-size: 40px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   line-height: 1;
   color: var(--tg-color-white-default);
 }
