@@ -3872,7 +3872,7 @@ textarea {
   }
 }
 .banner__area-two {
-  padding: 160px 0 140px;
+  padding: 80px 0 100px;
   position: relative;
   z-index: 1;
 }
@@ -4139,7 +4139,7 @@ textarea {
 .banner__content-two .title {
   font-size: 55px;
   letter-spacing: -2px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   margin-bottom: 10px;
 }
 @media (max-width: 1500px) {
@@ -5097,6 +5097,7 @@ textarea {
 }
 @media (max-width: 1500px) {
   .business-growth-box {
+    top: 5%;
     right: -9%;
   }
 }
@@ -23230,3 +23231,41 @@ blockquote cite {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+/*=============================
+    	18. Personalizado
+===============================*/
+/* Contenedor: evitar overflow del aumento */
+.brand-item {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform .35s ease;
+}
+
+/* Imagen: transición y mejora de rendimiento */
+.brand-item img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  transition: transform .45s cubic-bezier(.2,.8,.2,1), filter .35s ease;
+  will-change: transform, filter;
+}
+
+/* Hover / focus (teclado) */
+.brand-item:hover img,
+.brand-item:focus-within img {
+  transform: scale(1.1);
+  filter: saturate(1.05);
+  /* si quieres sombra en el contenedor */
+  /* box-shadow: 0 12px 30px rgba(15, 23, 42, 0.12); */
+  cursor: pointer;
+}
+
+/* Accesibilidad: foco visible para navegación por teclado */
+.brand-item a:focus img,
+.brand-item:focus img {
+  outline: 3px solid rgba(88, 115, 255, 0.12);
+  outline-offset: 6px;
+}
