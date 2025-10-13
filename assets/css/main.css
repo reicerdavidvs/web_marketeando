@@ -10548,7 +10548,7 @@ textarea {
   color: var(--tg-color-white-default);
   font-size: 30px;
   font-weight: 600;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   width: 90%;
 }
 @media (max-width: 1199.98px) {
@@ -21875,7 +21875,7 @@ blockquote cite {
   margin-bottom: 20px;
   font-size: 30px;
   font-weight: 600;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 @media (max-width: 767.98px) {
   .contact__form-wrap .title {
