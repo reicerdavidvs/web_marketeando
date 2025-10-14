@@ -9070,7 +9070,7 @@ textarea {
   top: 0;
   width: 60px;
   height: 60px;
-  background: #EAF0FF;
+  background: #cbdaff;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -o-border-radius: 10px;
@@ -9252,6 +9252,7 @@ textarea {
   margin-bottom: 15px;
   font-size: 22px;
   font-weight: 600;
+  text-align: center;
 }
 .services__content-two p {
   margin-bottom: 20px;
