@@ -645,7 +645,7 @@ var testimonialSwiper = new Swiper('.testimonial-active-two', {
     spaceBetween: 24,
     loop: true,
     autoplay: {
-        delay: 6000,
+        delay: 3000,
     },
     breakpoints: {
         '1500': {
