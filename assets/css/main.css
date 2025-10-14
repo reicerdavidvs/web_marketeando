@@ -4696,6 +4696,7 @@ textarea {
   -o-border-radius: 11px;
   -ms-border-radius: 11px;
   border-radius: 11px;
+  opacity: 0.3;
 }
 @media (max-width: 1199.98px) {
   .banner__img-two .shape-wrap img:nth-child(4) {
@@ -8617,6 +8618,7 @@ textarea {
   border-radius: 20px 30px;
   overflow: hidden;
   padding: 40px 40px;
+  
 }
 @media (max-width: 1199.98px) {
   .services__item-ten {
@@ -8626,13 +8628,16 @@ textarea {
 .services__item-ten .services__icon-two {
   font-size: 50px;
   padding: 10px 0 0 14px;
+  
 }
 .services__item-ten .services__icon-two::before {
   width: 50px;
   height: 50px;
+  
 }
 .services__item-ten:hover .services__icon-two i {
   transform: rotateY(180deg);
+  
 }
 .services__item-eleven {
   display: -webkit-box;
@@ -9055,12 +9060,13 @@ textarea {
   padding: 10px 0 0 17px;
   z-index: 1;
   margin-bottom: 20px;
-  display: inline-block;
+  display: block;
+  text-align: center;
 }
 .services__icon-two::before {
   content: "";
   position: absolute;
-  left: 0;
+  left: 30%;
   top: 0;
   width: 60px;
   height: 60px;
