@@ -9257,6 +9257,9 @@ textarea {
 .services__content-two p {
   margin-bottom: 20px;
 }
+.services__content-two{
+  text-align: center;
+}
 .services__content-three .title {
   margin-bottom: 12px;
   font-size: 20px;
@@ -21114,7 +21117,7 @@ blockquote cite {
   }
 }
 .features__content-two p {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 .features__content-two .list-wrap {
   margin-bottom: 50px;
