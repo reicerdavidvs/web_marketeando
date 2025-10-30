@@ -6384,6 +6384,7 @@ textarea {
 ===============================*/
 .about__area-two {
   position: relative;
+  padding: 120px 0;
   z-index: 1;
 }
 .about__area-two::before {
